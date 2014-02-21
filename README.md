@@ -71,4 +71,4 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 ### Work in Progress
 
 1. Tabs to use all tab area space.
-2. Native close button behaviour (i.e., shape and presence).
+2. Native close button behaviour.
