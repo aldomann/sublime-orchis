@@ -18,7 +18,7 @@ Dark variation.
 
 ![image](Screenshots/orchis-dark.png)
 
-*The font used in the screenshots is __Droid Sans__.*
+*The font used in the screenshots is __Droid Sans__; the colour scheme, __Monokai__.*
 
 ***
 
