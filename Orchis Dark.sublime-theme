@@ -13,7 +13,7 @@
         "layer0.opacity": 1,
         "content_margin": 0,
         "tab_overlap": 0,
-        "tab_width": 128,
+        "tab_width": 48, // Was 128
         "tab_min_width": 48,
         "tab_height": 34,
         "mouse_wheel_switch": false
@@ -49,7 +49,7 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "content_margin": [8,0,0,2],
+        "content_margin": [4,0,0,2],
         "layer0.texture": "Theme - Orchis/Orchis/tabs.png",
         "layer0.tint": [177, 82, 192] // 00
     },
@@ -70,7 +70,7 @@
         "class": "tab_close_button",
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
         "layer0.opacity": 0,
-        "layer0.tint": [239, 239, 239] // 03
+        "layer0.tint": [238, 238, 238] // 03
     },
     {
         "class": "tab_close_button",
@@ -88,7 +88,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [239, 239, 239] // 08
+        "layer0.tint": [255, 255, 255] // 08
     },
     {
         "class": "tab_close_button",
@@ -116,7 +116,7 @@
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [239, 239, 239] // 08
+        "layer0.tint": [255, 255, 255] // 08
     },
     {
         "class": "tab_close_button",
@@ -154,17 +154,17 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [239, 239, 239] // 03
+        "fg": [238, 238, 238] // 03
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [239, 239, 239] // 05
+        "fg": [238, 238, 238] // 05
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [239, 239, 239] // 06
+        "fg": [238, 238, 238] // 06
     },
 
 //
@@ -352,7 +352,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [239, 239, 239] // 03
+        "color": [238, 238, 238] // 03
     },
     // Text field labels
     {
@@ -406,7 +406,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [239, 239, 239] // 02
+        "color": [238, 238, 238] // 02
     },
 
 //
@@ -471,7 +471,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [239, 239, 239] // 05
+        "color": [238, 238, 238] // 05
     },
     {
         "class": "sidebar_label",
@@ -483,7 +483,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [239, 239, 239] // 06
+        "color": [238, 238, 238] // 06
     },
 
 //
@@ -496,13 +496,13 @@
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [239, 239, 239], // 02
+        "layer0.tint": [238, 238, 238], // 02
         "content_margin": [8,8]
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239], // 02
+        "layer0.tint": [238, 238, 238], // 02
         "layer0.opacity": 1
     },
     {
@@ -523,33 +523,33 @@
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Orchis/Orchis/circle.png",
-        "layer0.tint": [239, 239, 239] // 0A
+        "layer0.tint": [238, 238, 238] // 0A
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [239, 239, 239] // 08
+        "layer0.tint": [255, 255, 255] // 08
     },
     {
         "class": "close_button",
         "attributes": ["hover"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 08 
+        "layer0.tint": [255, 255, 255] // 08 
     },
     {
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
-        "layer0.tint": [239, 239, 239] // 08
+        "layer0.tint": [255, 255, 255] // 08
     },
     {
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
-        "layer0.tint": [239, 239, 239] // 08
+        "layer0.tint": [255, 255, 255] // 08
     },
 
 //
@@ -568,7 +568,7 @@
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [239, 239, 239] // 04
+        "layer0.tint": [238, 238, 238] // 04
     },
     {
         "class": "disclosure_button_control",
@@ -721,22 +721,22 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [239, 239, 239, 255], // 04
+        "fg": [238, 238, 238, 255], // 04
         "match_fg": [177, 82, 192, 255], // 05
-        "selected_fg": [239, 239, 239, 255], // 05
-        "selected_match_fg": [239, 239, 239, 255] // 07
+        "selected_fg": [238, 238, 238, 255], // 05
+        "selected_match_fg": [238, 238, 238, 255] // 07
     },
     {
         "class": "quick_panel_path_label",
         "fg": [221, 221, 221, 255], // 03
         "match_fg": [177, 82, 192, 255], // 04
         "selected_fg": [221, 221, 221, 255], // 03
-        "selected_match_fg": [239, 239, 239, 255] // 04
+        "selected_match_fg": [238, 238, 238, 255] // 04
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [239, 239, 239, 255], // 03
-        "selected_fg": [239, 239, 239, 255] // 03
+        "fg": [238, 238, 238, 255], // 03
+        "selected_fg": [238, 238, 238, 255] // 03
     },
 
 //
@@ -772,10 +772,10 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [239, 239, 239, 255], // 03
+        "fg": [238, 238, 238, 255], // 03
         "match_fg": [177, 82, 192, 255], // 05
-        "selected_fg": [239, 239, 239, 255], // 03
-        "selected_match_fg": [239, 239, 239, 255] // 05
+        "selected_fg": [238, 238, 238, 255], // 03
+        "selected_match_fg": [238, 238, 238, 255] // 05
     },
     {
         "class": "table_row",
@@ -862,7 +862,7 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     },
     // Case sensitive search button
     {
@@ -875,7 +875,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     },
     // Match whole word search button
     {
@@ -906,7 +906,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     },
     // Use search buffer
     {
@@ -919,7 +919,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     },
 
 //
@@ -936,7 +936,7 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     },
     // Search wrap button
     {
@@ -949,7 +949,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     },
     // Search in selection button
     {
@@ -962,7 +962,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     },
 
 //
@@ -980,7 +980,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     },
 
 //
@@ -998,7 +998,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [239, 239, 239] // 07
+        "layer0.tint": [238, 238, 238] // 07
     }
 
 ]

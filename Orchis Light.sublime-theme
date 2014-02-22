@@ -13,8 +13,8 @@
         "layer0.opacity": 1,
         "content_margin": 0,
         "tab_overlap": 0,
-        "tab_width": 128,
-        "tab_min_width": 48,
+        "tab_width": 48, // Was 128
+        "tab_min_width": 4,
         "tab_height": 34,
         "mouse_wheel_switch": false
     },
@@ -70,7 +70,7 @@
         "class": "tab_close_button",
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
         "layer0.opacity": 0,
-        "layer0.tint": [67, 67, 67] // 04
+        "layer0.tint": [84, 84, 84] // 04
     },
     {
         "class": "tab_close_button",
@@ -81,14 +81,14 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
-        "layer0.opacity": 1
+        "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [67, 67, 67] // 08
+        "layer0.tint": [67, 67, 67] // 07
     },
     {
         "class": "tab_close_button",
@@ -496,7 +496,7 @@
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [67, 67, 67], // 04
+        "layer0.tint": [84, 84, 84], // 04
         "content_margin": [8,8]
     },
     {
@@ -535,7 +535,7 @@
         "class": "close_button",
         "attributes": ["hover"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.tint": [255, 255, 255] // 08 
+        "layer0.tint": [238, 238, 238] // 08 
     },
     {
         "class": "close_button",
@@ -549,7 +549,7 @@
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
-        "layer0.tint": [255, 255, 255] // 08
+        "layer0.tint": [238, 238, 238] // 08
     },
 
 //
