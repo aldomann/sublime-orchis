@@ -81,7 +81,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
         "layer0.texture": "Theme - Orchis/Orchis/close.png",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
