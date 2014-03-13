@@ -40,6 +40,14 @@ You can also install the theme manually:
 2. Unzip and rename the folder to `Theme - Orchis`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
 
+### Git Installation
+
+Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your Packages directory in the Sublime Text application settings area.
+
+1. move `package` directory
+2. run `git clone git@github.com:aldomann/sublime-orchis.git`
+
+
 ***
 
 ### How to Activate
