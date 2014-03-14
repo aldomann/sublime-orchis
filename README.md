@@ -45,7 +45,7 @@ You can also install the theme manually:
 Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your Packages directory in the Sublime Text application settings area.
 
 1. Open a Terminal.
-2. Move to the `Packages` directory (you can find its location by choosing `Package Control: Install Package` in the `Commmand Palette`).
+2. Move to the `Packages` directory (you can find its location by choosing `Package Control: Browse Packages` in the `Commmand Palette`).
 3. Run `git clone https://github.com/aldomann/sublime-orchis.git`.
 
 ***
