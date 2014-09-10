@@ -6,15 +6,21 @@ A set of custom UI themes for Sublime Text 2/3  that match [Orchis GTK+ theme](h
 
 ### Themes
 
-#### Orchis Light
+#### Orchis Dark
 
 Default flavour.
 
+![image](Screenshots/orchis-dark.png)
+
+#### Orchis Light
+
+Default flavour, light variation.
+
 ![image](Screenshots/orchis-light.png)
 
-#### Orchis Dark
+#### Orchis Dark Legacy
 
-Dark variation.
+Dark variation. You shall use it if you set you Window Theme to Orchis Dark.
 
 ![image](Screenshots/orchis-dark.png)
 
