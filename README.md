@@ -22,7 +22,7 @@ Default flavour, light variation.
 
 Dark variation. You shall use it if you set you Window Theme to Orchis Dark.
 
-![image](Screenshots/orchis-dark.png)
+![image](Screenshots/orchis-dark-legacy.png)
 
 *The font used in the screenshots is __Monaco__; the colour scheme, __Solarized__ (available via Package Control).*
 
