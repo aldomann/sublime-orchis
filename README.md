@@ -20,7 +20,7 @@ Default flavour, light variation.
 
 #### Orchis Dark Legacy
 
-Dark variation. You shall use it if you set you Window Theme to Orchis Dark.
+Dark variation. You shall use it if you set your Window Theme to Orchis Dark.
 
 ![image](Screenshots/orchis-dark-legacy.png)
 
