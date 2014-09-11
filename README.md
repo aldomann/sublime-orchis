@@ -14,9 +14,11 @@ Default flavour.
 
 #### Orchis Light
 
-Default flavour, light variation.
+Default flavour, light variation. 
 
 ![image](Screenshots/orchis-light.png)
+
+You might want to disable GTKDarkThemeVariantSetter package in order to get *light* title bars instead of the default *dark* ones (*GNU/Linux specific*).
 
 #### Orchis Dark Legacy
 
