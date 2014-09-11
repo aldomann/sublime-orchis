@@ -53,16 +53,16 @@ You can also install the theme manually:
 Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your Packages directory in the Sublime Text application settings area.
 
 1. Open a Terminal.
-2. Move to the `Packages` directory (you can find its location by choosing `Package Control: Browse Packages` in the `Commmand Palette`).
+2. Move to the `Packages` directory (you can find its location by choosing `Package Control: Browse Packages` in the `Command Palette`).
 3. Run `git clone https://github.com/aldomann/sublime-orchis.git`.
 
 ***
 
 ### How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
+Activate the UI theme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
 
-You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
+*Alternatively you might want to use [Themr](https://sublime.wbond.net/packages/Themr) (available via Package Control) to change the UI theme easily.*
 
 ***Note: Don't forget to restart Sublime Text after activating the theme.***
 
@@ -79,5 +79,13 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 ```
 {
   "theme": "Orchis Light.sublime-theme"
+}
+```
+
+#### Settings for Orchis Dark Legacy
+
+```
+{
+  "theme": "Orchis Dark Legacy.sublime-theme"
 }
 ```
