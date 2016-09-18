@@ -2,6 +2,7 @@
 
 A set of custom UI themes for Sublime Text 2/3  that match [Orchis GTK+ theme](http://mokaproject.com/orchis-gtk-theme/), based on [Spacegray](https://github.com/kkga/spacegray).
 
+*The theme is no longer maintained, as the GTK+ theme is no longer being developed, sorry.*
 ***
 
 ### Themes
